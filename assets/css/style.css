@@ -21,6 +21,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -219,3 +220,79 @@ footer {
     padding-left: 5%;
     color: #777777;
 }
+
+@media screen and (max-width: 1393px){
+    #club_ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left_about, #right_about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center_about{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150%;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #ffffff;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 943px){
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover_text{
+        left: 0px;
+    }
+
+    #club_ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left_about_heading, .right_about_heading{
+        width: inherit;
+    }
+
+    .left_about_heading h2, .right_about_heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left_about_heading p , .right_about_heading p {
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+}
+
